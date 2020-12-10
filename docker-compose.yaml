@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  hellowdocker:
+    build: .
+    ports:
+      - 80:80
+
